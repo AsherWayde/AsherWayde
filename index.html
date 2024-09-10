@@ -5,15 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asher Wayde's Site</title>
     <link href="style.css" rel="stylesheet">
+
+    <!-- Custom Fonts Here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <header>
-        <h1>Asher Wayde</h1>
-        I'm a computer Science Student in the Class of 2026 at Elizabethtown College
+        <table id="HeadTable">
+            <tr>
+                <td>
+                    <img src="images/Icon.png" height=150px height=110px>
+                </td>
+                <td>
+                    <h1>Asher Wayde</h1>
+                    I'm a computer Science Student in the Class of 2026 at Elizabethtown College
+                </td>
+        </tr>
+        </table>
     </header>
     <!--<hr width="100%" size="1">-->
     <main>
 
+        <table id="desc">
+            <tr>
+                <td>
+                    <h3>A Brief Description</h3>
+                </td>
+                <td>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                </td>
+                <td>
+                    This is my Portfolio Website, it is currently a work in progress, but still showcases my<br>
+                    Ability to Code within websites, and in other projects that I have worked on.
+                </td>
+            </tr>
+        </table>
+        
 
         <table id="SkillCard">
             <!-- Outer Table for Structure of Website-->
@@ -134,8 +170,49 @@
         </td>
     </tr>
     </table>
+
+    <table id="projects">
+        <tr>
+            <td>
+                <h2>Projects</h2>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        <b class="title">Unattended Bios Update and Configuration</b>
+                        <br>
+                        <p>
+                            Used <b>KACE</b> to push a <b>Powershell</b> script, which checked if a computer needed a BIOS update<br>
+                             and ran the update if it was needed
+                        </p>
+                    </li>
+                    <li>
+                        <b class="title">
+                            Baseball Records Website
+                        </b>
+                        <br>
+                        <p>
+                            Built a website at <a href="https://waydea.etowndb.com">waydea.etowndb.com</a>, which displayed Baseball Records<br>
+                            created with <b>PHP</b> and connected to a <b>SQL</b> database backend
+                        </p>
+                    </li>
+                    <li>
+                        <b class="title">Eight Queens</b>
+                        <br>
+                        <p>
+                            Made a program in <b>Java</b> to solve putting Eight Queens on a chessboard and finding a board that no queen<br>
+                            can kill another Queen Then Displayed all of the Successfull boards
+                        </p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
     </main>
-    <hr width="100%" size="1">
+    <!--<hr width="100%" size="1">-->
     <footer>
         <font size="2">
             Portfolio of Asher Benjamin Wayde.

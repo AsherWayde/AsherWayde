@@ -8,10 +8,56 @@ body{
     list-style-position: inside;
 }
 header{
-    background-color: cornflowerblue;
+    background-color: rgb(12, 68, 172);
     padding: 4%;
 }
-
+footer{
+    background-color: rgb(12, 68, 172);
+    padding: 1%;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+h1{
+    font-family: 'Protest Guerrilla',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+}
+h3,h2,.title{
+    font-family: 'Verdana',sans-serif;
+}
+#HeadTable{
+    margin-left:20%;
+}
+#HeadTable td{
+    padding-right: 100px;
+    color:white;
+}
+#desc{
+    border: 12px dashed;
+    border-color: cornflowerblue;
+    background-color: white;
+    padding:1%;
+    margin-top: 100px;
+    margin-left: 8%;
+}
+#projects{
+    border: 12px dashed;
+    border-color: cornflowerblue;
+    background-color: white;
+    padding:1%;
+    text-align: left;
+    margin-top:40px;
+    margin-left:25%;
+    padding-right:15%;
+    padding-left:2%;
+    margin-bottom: 50px;
+}
 #SkillCard{
     margin-left:20%;
     border: 12px dashed;
@@ -22,7 +68,7 @@ header{
     padding-left:8%;
     text-align: left;
     margin-bottom: 30px;
-    margin-top:30px;
+    margin-top:70px;
 }
 #Classes{
     border: 12px dashed;
@@ -31,7 +77,8 @@ header{
     padding:1%;
     padding-right:12%;
     padding-left:8%;
-    margin-left:40%
+    margin-left:40%;
+    margin-bottom:30px;
 }
 #Classes ul{
     text-align: left;
