@@ -7,17 +7,49 @@ body{
     text-align: center;
     list-style-position: inside;
 }
+header{
+    background-color: cornflowerblue;
+    padding: 4%;
+}
 
-
+#SkillCard{
+    margin-left:20%;
+    border: 12px dashed;
+    border-color: cornflowerblue;
+    background-color: white;
+    padding:1%;
+    padding-right:20%;
+    padding-left:8%;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+#Classes{
+    border: 12px dashed;
+    border-color: cornflowerblue;
+    background-color: white;
+    padding:1%;
+    padding-right:12%;
+    padding-left:8%;
+    margin-left:40%
+}
+#Classes ul{
+    text-align: left;
+}
+#SkillsAndClasses thead,td{
+    border:hidden;
+}
 #SkillsTable{
     border: 2px solid;
     margin:auto;
 }
-#SkillsTable thead, td{
-    border: 2px solid;
+#SkillsTable td{
+    border: 1px solid;
     text-align: center;
 }
-#SkillsAndClasses{
-    margin:auto;
-    border:hidden;
+.NoBullets{
+    list-style-type: none;
+}
+.icon{
+    height: 50px;
 }
