@@ -13,8 +13,9 @@ header{
 }
 footer{
     background-color: rgb(12, 68, 172);
-    padding: 1%;
+    padding: 1.25%;
     color:white;
+    font-size: small;
 }
 a{
     text-decoration: none;
