@@ -81,6 +81,9 @@ h3,h2,.title{
     margin-left:40%;
     margin-bottom:30px;
 }
+#projects ul{
+    list-style-type: none;
+}
 #Classes ul{
     text-align: left;
 }
@@ -100,4 +103,8 @@ h3,h2,.title{
 }
 .icon{
     height: 50px;
+}
+.Box{
+    height:50px;
+    width:50px;
 }
